@@ -2,8 +2,7 @@ package com.example.ejerciciosdepruracionytest
 
 class GestionCadena {
 
-
-//funcion contar vocales
+//Funcion contar vocales//
     fun contarVocales(cadena: String): Int {
         var contador = 0
         for (i in cadena.indices) {
@@ -15,7 +14,7 @@ class GestionCadena {
     }
 
 
-//funcion contar palabra
+//Funcion contar palabra//
     fun contarPalabras(cadena: String): Int {
         var contador = 0
         for (i in cadena.indices) {
@@ -25,7 +24,8 @@ class GestionCadena {
         }
         return contador + 1
     }
-//funcion contar letras
+
+//Funcion contar letras//
     fun contarLetras(cadena: String): Int {
         var contador = 0
         for (i in cadena.indices) {
