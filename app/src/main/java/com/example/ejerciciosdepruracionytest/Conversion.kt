@@ -3,7 +3,7 @@ package com.example.ejerciciosdepruracionytest
 class Conversion {
 
 
-
+//funcion de kilometros a metros
     fun conversion(km:Double):Double{
 
         try{

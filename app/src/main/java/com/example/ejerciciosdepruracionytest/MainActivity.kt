@@ -35,10 +35,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var kms:Conversion
 
     kms= Conversion()
-
-
-
-
+        
     btnC.setOnClickListener(){
         try{
             txtmts.setText(kms.conversion(txtkm.text.toString().toDouble()).toString()+" mts")

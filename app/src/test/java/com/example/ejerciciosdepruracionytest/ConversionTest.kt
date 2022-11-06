@@ -8,7 +8,7 @@ class ConversionTest {
 
 lateinit var conversion:Conversion
 
-
+//test de converion de kilometros a metros
     @Test
     fun conversion(){
     conversion=Conversion()
